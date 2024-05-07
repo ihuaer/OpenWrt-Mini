@@ -1,4 +1,4 @@
-name:  OpenWrt-合集版
+name:  N1固件
 
 on: 
   workflow_dispatch:
