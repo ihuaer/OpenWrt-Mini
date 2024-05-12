@@ -1,4 +1,4 @@
-name:  OpenWrt-基础版
+name:  OpenWrt-storeos
 
 on: 
   workflow_dispatch:
@@ -6,10 +6,10 @@ on:
     - cron: 01 00 * * 5
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/istoreos/istoreos
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: OK1.config
+  CONFIG_FILE: OK2.config
   DIY_P1_SH: DIY-1.sh
   DIY_P2_SH: DIY-2.sh
   UPLOAD_FIRMWARE: true
